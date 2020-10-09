@@ -29,14 +29,7 @@ Integer a1,b1;
         b.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View view) {
-                if (! Python.isStarted()) {
-                    Python.start(new AndroidPlatform (getContext ()));
-                }
-                Python py=Python.getInstance ();
-                PyObject pyo=py.getModule ("myscript");
-                a1=10;b1=10;
-                PyObject pyo1=pyo.callAttr ("add",a1,b1);
-                Toast.makeText (getContext (),pyo1.toString (),Toast.LENGTH_LONG).show ();
+           
                 Intent i=new Intent (getContext (),Chapterpage.class);
                 startActivity (i);
             }
