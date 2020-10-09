@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+     <item
+         android:title="Home"
+         android:id="@id/home"
+         android:icon="@drawable/home"
+        />
+
+
+    <item
+        android:title="Lawyers"
+        android:id="@id/lawyers"
+        android:icon="@drawable/lawyer"
+        />
+
+    <item
+        android:title="Register"
+        android:id="@id/register"
+        android:icon="@drawable/register"
+        />
+
+
+<item android:title="Communicate">
+    <menu>
+            <item
+                android:id="@+id/contactus"
+                android:icon="@drawable/contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/faq"
+            android:title="FAQ" />
+
+
+    </menu>
+</item>
+
+</menu>

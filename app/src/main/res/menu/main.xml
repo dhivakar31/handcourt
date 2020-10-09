@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <item
+         android:title="Home"
+         android:id="@id/home"
+         android:icon="@drawable/home"
+        />
+
+    <item
+        android:title="Lawyers"
+        android:id="@id/lawyers"
+        android:icon="@drawable/lawyer"
+       />
+
+    <item
+        android:title="Register"
+        android:id="@id/register"
+        android:icon="@drawable/register"
+       />
+
+
+</menu>

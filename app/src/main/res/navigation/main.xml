@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="net.eu5.calibos.handcourt.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+  
+
+
+    <fragment
+        android:id="@+id/lawyers"
+        android:name="net.eu5.calibos.handcourt.LawyersFragment"
+        android:label="Lawyers"
+        tools:layout="@layout/fragment_lawyers" />
+
+
+    <fragment
+        android:id="@+id/register"
+        android:name="net.eu5.calibos.handcourt.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/contactus"
+        android:name="net.eu5.calibos.handcourt.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/faq"
+        android:name="net.eu5.calibos.handcourt.FaqFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/feedback"
+        android:name="net.eu5.calibos.handcourt.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+</navigation>
